@@ -19,7 +19,7 @@ BaselineOfAIDatasets >> baseline: spec [
 	spec for: #common do: [ 
 		"External dependencies"
 		spec
-    			baseline: 'AIExternalDataFrame' with: [ spec repository: 'github://pharo-ai/external-dependencies' ].
+    			baseline: 'AIExternalDataFrame' with: [ spec repository: 'github://Joshua-Dias-Barreto/external-dependencies' ].
 		
 		"Packages"
 		spec 

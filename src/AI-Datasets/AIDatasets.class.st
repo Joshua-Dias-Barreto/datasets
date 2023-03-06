@@ -35,7 +35,7 @@ AIDatasets class >> downloadDatasetNamed: aDatasetName [
 	fileName := aDatasetName, '.csv'.
 	
 	ZnClient new
-		url: 'https://raw.githubusercontent.com/PharoAI/DatasetsFiles/master/datasets/', fileName;
+		url: 'https://raw.githubusercontent.com/Joshua-Dias-Barreto/DatasetsFiles/master/datasets/', fileName;
 		downloadTo: self dataDirectory / fileName.
 ]
 
